@@ -50,3 +50,17 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for depth */
   background-color: #ffffff; /* Lighten the background color */
 }
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-text {
+  margin-right: 8px; /* Space between the rating text and the stars */
+  font-size: 1rem;
+}
+
+.icon {
+  display: flex;
+  gap: 2px;
+}
