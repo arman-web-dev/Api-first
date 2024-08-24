@@ -28,7 +28,7 @@ function App() {
     axios.get('https://dummyjson.com/products').then((response) => {
       setProduct(response.data.products);
     });
-  }
+  };
 
   useEffect(() => {
     getdata();
@@ -52,7 +52,7 @@ function App() {
                 <h3>Discount: {item.discountPercentage}%</h3>
               </div>
             </Col>
-          ))}
+          ))};
         </Row>
       </Container>
     </>
